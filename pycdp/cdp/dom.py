@@ -99,6 +99,8 @@ class PseudoType(enum.Enum):
     SCROLL_MARKER = "scroll-marker"
     SCROLL_MARKER_GROUP = "scroll-marker-group"
     SCROLL_BUTTON = "scroll-button"
+    SCROLL_NEXT_BUTTON = "scroll-next-button"
+    SCROLL_PREV_BUTTON = "scroll-prev-button"
     SCROLLBAR = "scrollbar"
     SCROLLBAR_THUMB = "scrollbar-thumb"
     SCROLLBAR_BUTTON = "scrollbar-button"
@@ -115,6 +117,8 @@ class PseudoType(enum.Enum):
     PLACEHOLDER = "placeholder"
     FILE_SELECTOR_BUTTON = "file-selector-button"
     DETAILS_CONTENT = "details-content"
+    SELECT_FALLBACK_BUTTON = "select-fallback-button"
+    SELECT_FALLBACK_BUTTON_TEXT = "select-fallback-button-text"
     PICKER = "picker"
 
     def to_json(self) -> str:

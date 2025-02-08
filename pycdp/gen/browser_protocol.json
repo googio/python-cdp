@@ -1049,9 +1049,13 @@
                         "ExcludeSamePartyCrossPartyContext",
                         "ExcludeDomainNonASCII",
                         "ExcludeThirdPartyCookieBlockedInFirstPartySet",
+<<<<<<< HEAD
                         "ExcludeThirdPartyPhaseout",
                         "ExcludePortMismatch",
                         "ExcludeSchemeMismatch"
+=======
+                        "ExcludeThirdPartyPhaseout"
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                     ]
                 },
                 {
@@ -1261,8 +1265,12 @@
                         "CorpNotSameOriginAfterDefaultedToSameOriginByCoep",
                         "CorpNotSameOriginAfterDefaultedToSameOriginByDip",
                         "CorpNotSameOriginAfterDefaultedToSameOriginByCoepAndDip",
+<<<<<<< HEAD
                         "CorpNotSameSite",
                         "SRIMessageSignatureMismatch"
+=======
+                        "CorpNotSameSite"
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                     ]
                 },
                 {
@@ -1817,7 +1825,11 @@
                         "ThirdPartyCookiesBlocked",
                         "NotSignedInWithIdp",
                         "MissingTransientUserActivation",
+<<<<<<< HEAD
                         "ReplacedByActiveMode",
+=======
+                        "ReplacedByButtonMode",
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "InvalidFieldsSpecified",
                         "RelyingPartyOriginIsOpaque",
                         "TypeNotMatching"
@@ -2792,8 +2804,11 @@
                         "audioCapture",
                         "automaticFullscreen",
                         "backgroundFetch",
+<<<<<<< HEAD
                         "backgroundSync",
                         "cameraPanTiltZoom",
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "capturedSurfaceControl",
                         "clipboardReadWrite",
                         "clipboardSanitizedWrite",
@@ -2816,13 +2831,17 @@
                         "smartCard",
                         "speakerSelection",
                         "storageAccess",
+                        "speakerSelection",
                         "topLevelStorageAccess",
                         "videoCapture",
                         "vr",
                         "wakeLockScreen",
                         "wakeLockSystem",
                         "webAppInstallation",
+<<<<<<< HEAD
                         "webPrinting",
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "windowManagement"
                     ]
                 },
@@ -4928,6 +4947,7 @@
                     ]
                 },
                 {
+<<<<<<< HEAD
                     "name": "trackComputedStyleUpdatesForNode",
                     "description": "Starts tracking the given node for the computed style updates\nand whenever the computed style is updated for node, it queues\na `computedStyleUpdated` event with throttling.\nThere can only be 1 node tracked for computed style updates\nso passing a new node id removes tracking from the previous node.\nPass `undefined` to disable tracking.",
                     "experimental": true,
@@ -4940,6 +4960,8 @@
                     ]
                 },
                 {
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                     "name": "trackComputedStyleUpdates",
                     "description": "Starts tracking the given computed styles for updates. The specified array of properties\nreplaces the one previously specified. Pass empty array to disable tracking.\nUse takeComputedStyleUpdates to retrieve the list of nodes that had properties modified.\nThe changes to computed style properties are only tracked for nodes pushed to the front-end\nby the DOM agent. If no changes to the tracked properties occur after the node has been pushed\nto the front-end, no updates will be issued for the node.",
                     "experimental": true,
@@ -5774,7 +5796,12 @@
                         "first-line-inherited",
                         "scroll-marker",
                         "scroll-marker-group",
+<<<<<<< HEAD
                         "scroll-button",
+=======
+                        "scroll-next-button",
+                        "scroll-prev-button",
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "scrollbar",
                         "scrollbar-thumb",
                         "scrollbar-button",
@@ -5791,6 +5818,11 @@
                         "placeholder",
                         "file-selector-button",
                         "details-content",
+<<<<<<< HEAD
+=======
+                        "select-fallback-button",
+                        "select-fallback-button-text",
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "picker"
                     ]
                 },
@@ -12962,8 +12994,12 @@
                         "corp-not-same-origin-after-defaulted-to-same-origin-by-coep",
                         "corp-not-same-origin-after-defaulted-to-same-origin-by-dip",
                         "corp-not-same-origin-after-defaulted-to-same-origin-by-coep-and-dip",
+<<<<<<< HEAD
                         "corp-not-same-site",
                         "sri-message-signature-mismatch"
+=======
+                        "corp-not-same-site"
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                     ]
                 },
                 {
@@ -13608,6 +13644,24 @@
                         "NameValuePairExceedsMaxSize",
                         "PortMismatch",
                         "SchemeMismatch"
+                    ]
+                },
+                {
+                    "id": "CookieExemptionReason",
+                    "description": "Types of reasons why a cookie should have been blocked by 3PCD but is exempted for the request.",
+                    "experimental": true,
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "UserSetting",
+                        "TPCDMetadata",
+                        "TPCDDeprecationTrial",
+                        "TopLevelTPCDDeprecationTrial",
+                        "TPCDHeuristics",
+                        "EnterprisePolicy",
+                        "StorageAccess",
+                        "TopLevelStorageAccess",
+                        "Scheme"
                     ]
                 },
                 {
@@ -17302,7 +17356,10 @@
                         "controlled-frame",
                         "cross-origin-isolated",
                         "deferred-fetch",
+<<<<<<< HEAD
                         "deferred-fetch-minimal",
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "digital-credentials-get",
                         "direct-sockets",
                         "direct-sockets-private",
@@ -18694,8 +18751,12 @@
                         "EmbedderExtensionMessaging",
                         "EmbedderExtensionMessagingForOpenPort",
                         "EmbedderExtensionSentMessageToCachedFrame",
+<<<<<<< HEAD
                         "RequestedByWebViewClient",
                         "PostMessageByWebViewClient"
+=======
+                        "RequestedByWebViewClient"
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                     ]
                 },
                 {
@@ -22153,10 +22214,13 @@
                             "name": "scopesData",
                             "optional": true,
                             "$ref": "AttributionScopesData"
+<<<<<<< HEAD
                         },
                         {
                             "name": "maxEventLevelReports",
                             "type": "integer"
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         }
                     ]
                 },
@@ -22408,7 +22472,10 @@
                         "excessiveReportingOrigins",
                         "noHistograms",
                         "insufficientBudget",
+<<<<<<< HEAD
                         "insufficientNamedBudget",
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         "noMatchingSourceFilterData",
                         "notRegistered",
                         "prohibitedByBrowserPolicy",
@@ -25646,6 +25713,7 @@
                             "description": "Assertions returned by this credential will have the backup state (BS)\nflag set to this value. Defaults to the authenticator's\ndefaultBackupState value.",
                             "optional": true,
                             "type": "boolean"
+<<<<<<< HEAD
                         },
                         {
                             "name": "userName",
@@ -25658,6 +25726,8 @@
                             "description": "The credential's user.displayName property. Equivalent to empty if\nnot set.\nhttps://w3c.github.io/webauthn/#dom-publickeycredentialuserentity-displayname",
                             "optional": true,
                             "type": "string"
+=======
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                         }
                     ]
                 }
@@ -26429,9 +26499,13 @@
                         "AllPrerenderingCanceled",
                         "WindowClosed",
                         "SlowNetwork",
+<<<<<<< HEAD
                         "OtherPrerenderedPageActivated",
                         "V8OptimizerDisabled",
                         "PrerenderFailedDuringPrefetch"
+=======
+                        "OtherPrerenderedPageActivated"
+>>>>>>> 233a1fdb2c1dd51a4ca15a51f5fe82915cd9fe90
                     ]
                 },
                 {

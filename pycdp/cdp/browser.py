@@ -130,6 +130,7 @@ class PermissionType(enum.Enum):
     SMART_CARD = "smartCard"
     SPEAKER_SELECTION = "speakerSelection"
     STORAGE_ACCESS = "storageAccess"
+    SPEAKER_SELECTION = "speakerSelection"
     TOP_LEVEL_STORAGE_ACCESS = "topLevelStorageAccess"
     VIDEO_CAPTURE = "videoCapture"
     VR = "vr"

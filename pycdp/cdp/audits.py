@@ -1085,7 +1085,7 @@ class FederatedAuthRequestIssueReason(enum.Enum):
     THIRD_PARTY_COOKIES_BLOCKED = "ThirdPartyCookiesBlocked"
     NOT_SIGNED_IN_WITH_IDP = "NotSignedInWithIdp"
     MISSING_TRANSIENT_USER_ACTIVATION = "MissingTransientUserActivation"
-    REPLACED_BY_ACTIVE_MODE = "ReplacedByActiveMode"
+    REPLACED_BY_BUTTON_MODE = "ReplacedByButtonMode"
     INVALID_FIELDS_SPECIFIED = "InvalidFieldsSpecified"
     RELYING_PARTY_ORIGIN_IS_OPAQUE = "RelyingPartyOriginIsOpaque"
     TYPE_NOT_MATCHING = "TypeNotMatching"
